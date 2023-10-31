@@ -71,11 +71,13 @@ const doggieWalks = dogs.forEach((dogName) => {
 console.log("\n"); // radbrytning
 console.log(doggieWalks); // returns undefined
 // task 2
+console.log("\n"); // radbrytning
 const doggieWalks2 = dogs.map((dogName) => {
   return "The " + dogName + " needs to go for a walk!";
 });
 console.log(doggieWalks2);
 // task 3
+console.log("\n"); // radbrytning
 const shoutyDogNames = dogs.map((dogName) => {
   return dogName.toUpperCase();
 });
@@ -111,6 +113,7 @@ const dogs2 = {
   },
 };
 console.log(dogs2.labrador.puppy.name); // prints Buster
+console.log(dogs2["labrador"]["puppy"]["name"]); // prints buster
 
 // 6. ARRAY-OBJECTS
 const products = [
